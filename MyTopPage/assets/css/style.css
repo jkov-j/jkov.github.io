@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+/*
+全体
+*/
+body {
+  font-family: 'Noto Serif JP', "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
+  background-color: #333;
+  
+}
+
+/*
+ヘッダー
+*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  width: 100%;
+  height: 190px;
+  background-color: #454545;
+}
+.header-logo {
+  margin: 0 0 0 20px;
+}
+.header-icon {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.header-navlist {
+  margin: 0;
+  display: flex;
+}
+.header-navitem {
+  display: inline-block;
+}
+
+/*
+ヘッダーボタン
+*/
+.button {
+  border: 0;
+  margin: 0 20px;
+  padding: 60px;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0 #666 ;
+  transition: box-shadow 0.5s;
+}
+.button:hover {
+  box-shadow: 0 0 0 transparent;
+}
+.button.button-g {
+  background-color: #d98900;
+}
+.button.button-y {
+  background-color: #ce0000;
+}
+.button.button-t {
+  background-color: #00e1ff;
+}
+
+/*
+検索ボックス
+*/
+.google-search {
+  padding: 200px ;
+}
+.gsc-search-button {
+  cursor: pointer;
+}
