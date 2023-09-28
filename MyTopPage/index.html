@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TOP PAGE</title>
+  <meta name="mytoppage" content="自分用のトップページ">
+  
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/sanitize.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 
@@ -21,7 +24,7 @@
 
 </head>
 <body>
-  <header class="header">
+  <header>
     <div class="header-logo">
       <a href="https://google.com" class="header-icon">
         <svg version="1.1" id="_x31_0" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="width: 100px; height: 100px; opacity: 1;" xml:space="preserve">
@@ -46,30 +49,27 @@
               c28.695,26.202,46.832,63.785,46.832,105.613c0,39.477-16.055,75.27-41.977,101.203l-86.703,154.363
               C404.953,504.223,512,392.5,512,256.215C512,218.766,503.851,183.207,489.34,151.113z" style="fill: rgb(142, 0, 0);"></path>
           </g>
+          <title>header logo</title>
           </svg>
       </a>
     </div>
 
-    <nav class="header-nav">
-      <ul class="header-navlist">
-        <li class="header-navitem">
-          <a href="https://gmail.com" class="button button-g">Gmail</a>
-        </li>
-        <li class="header-navitem">
-          <a href="https://youtube.com" class="button button-y">YouTube</a>
-        </li>
-        <li class="header-navitem">
-          <a href="https://twitter.com" class="button button-t">Twitter</a>
-        </li>
-      </ul>
-    </nav>
+    <div class="header-button-area">
+      <a href="https://gmail.com" class="button button-g">Gmail</a>
+      <a href="https://youtube.com" class="button button-y">YouTube</a>
+      <a href="https://twitter.com" class="button button-t">Twitter</a>
+    </div>
+
+
   </header>
 
-  <div class="google-search">
-    <script async src="https://cse.google.com/cse.js?cx=132a32109b29342f6">
-    </script>
-    <div class="gcse-search"></div>
-  </div>
+  <main>
+    <div class="google-search">
+      <script async src="https://cse.google.com/cse.js?cx=132a32109b29342f6">
+      </script>
+      <div class="gcse-search"></div>
+    </div>
+  </main>
 
 </body>
 </html>
