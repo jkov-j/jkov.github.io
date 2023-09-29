@@ -83,3 +83,7 @@ main {
 .gsc-search-button:hover {
   cursor: pointer;
 }
+/* 予測変換の文字色を黒に */
+.gssb_a {
+  color: #333;
+}
