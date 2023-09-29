@@ -6,7 +6,7 @@
 body {
   font-family: 'Pixelify Sans', "cursive", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", sans-serif;
   background-color: #333;
-  color: #fff;
+  color: #333;
   width: 100%;
   height: 100vh;
   display: grid;
@@ -82,8 +82,4 @@ main {
 }
 .gsc-search-button:hover {
   cursor: pointer;
-}
-/* 予測変換の文字色を黒に */
-.gssb_a {
-  color: #333;
 }
