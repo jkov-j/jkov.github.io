@@ -116,7 +116,7 @@ main {
   .open {
     position: absolute;
     color: #fff;
-    right: 8%;
+    left: 8%;
     top: 3%;
     transform: scale(2);
   }
@@ -125,15 +125,15 @@ main {
     display: block;
     position: absolute;
     z-index: 500000;
-    right: -50%;
-    width: 50%;
+    left: -60%;
+    width: 60%;
     height: 100%;
     background-color: #454545;
     text-align: center;
     transition: all 0.2s;
   }
   .check:checked ~ nav {
-    right: 0;
+    left: 0;
   }
   .nav-list {
     margin: 0;
