@@ -149,8 +149,8 @@ main {
   }
   .nav-item {
     text-decoration: none;
-    font-size: 2rem;
-    font-family: fantasy;
+    font-size: 3rem;
+    font-family: 'Itim', cursive;
   }
   .nav-i1 {
     color: #0f0;
