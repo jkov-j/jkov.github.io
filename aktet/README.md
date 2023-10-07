@@ -1,3 +1,3 @@
 # How to
-move: 「w a s d」 or 「↑ ← ↓ →」
-rotate: 「space」 or 「Enter」
+- move: 「w a s d」 or 「↑ ← ↓ →」
+- rotate: 「space」 or 「Enter」
