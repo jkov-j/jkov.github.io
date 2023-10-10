@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+body {
+  font-family: "Noto Sans JP", "Helvetica Neue", "Helvetica", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Arial", "Yu Gothic", "Meiryo", "sans-serif";
+  line-height: 1.5;
+  color: #333;
+  font-size: 20px;
+  letter-spacing: 0.08rem;
+  text-align: center;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.title-area {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+h1 {
+  font-size: 4rem;
+  margin: 0;
+}
+#startButton {
+  background-color: #e3e300;
+  width: 100px;
+  height: 50px;
+  border-radius: 5px;
+}
+.game-area {
+  width: 80%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+#num-display {
+  background-color: #80ff0080;
+  width: 30%;
+  height: 30%;
+  font-size: 6rem;
+  border: solid 3px #555;
+  letter-spacing: 0.5rem;
+}
+#challengeHistory {
+  display: block;
+  font-size: 2rem;
+}
