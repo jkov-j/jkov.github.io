@@ -14,6 +14,7 @@ function newGame() {
   document.getElementById("startButton").style.visibility = "hidden";
   document.addEventListener("keydown", keyPush);
   setNumber();
+  challengeHistory = document.getElementById("challengeHistory");
 }
 
 function setStrAll(str) {
@@ -75,6 +76,8 @@ function judge() {
   let result = document.createElement("div");
   result.innerText = turn + "回目 [ " + str + " ] " + hit + "HIT / " + blow + "BLOW";
   challengeHistory.appendChild(result);
+  challengeHistory.scrollTop = challengeHistory.scrollHeight;
+
 
   if(hit == ARRAY_LENGTH) {
     alert("正解！！\n" + turn + "回目でクリア！！");
